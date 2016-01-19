@@ -1,0 +1,27 @@
+{
+  "name": "jsonacl",
+  "version": "0.0.2",
+  "description": "Simple ACL built using a JSON file to persist permissions",
+  "main": "jsonacl.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gizur/jsonacl.git"
+  },
+  "keywords": [
+    "ACL",
+    "Access",
+    "Control",
+    "List",
+    "grant",
+    "revoke"
+  ],
+  "author": "Jonas Colmsjö",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gizur/jsonacl/issues"
+  },
+  "homepage": "https://github.com/gizur/jsonacl#readme"
+}

@@ -48,6 +48,12 @@ a.revoke('jonas', 'mytable', 'get', 'pelle');
 a.isAllowed('mytable', 'get', 'pelle');       // false
 
 a.save();                                     // save json to acl.json
+
+var b = new Acl('acl.json');
+b.init()                                      // b now contains the permissions
+.then(function(){                             // init returns a promise (see promisejs.org for details)
+  console.log(b.grants);
+});
 ```
 
 

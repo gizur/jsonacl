@@ -1,9 +1,9 @@
 Access Control List Class
 =========================
 
-Simple implementation of ACL (Access Control Lists).
-  * Install: `npm install bluebird`
-  * Run the tests with: `node test.js`
+Simple implementation of ACL (Access Control Lists):
+
+* Run the tests with: `node test.js`
 
 Example:
 

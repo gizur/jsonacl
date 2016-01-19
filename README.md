@@ -22,8 +22,8 @@ API
 
 `Acl.revoke(granter, object, verb, role)`:
  * `granter` - the `role` performing the `revoke` operation. This role must have 'grant' permissions (`verb`) to be able to perform revoke. 
- * `role` - now does not has permission to perform `verb` operations on `object` (it is not necessary thar `role` has `verb` permissions to perform `revoke`)
- * returns true if successful and false otherwise
+ * `role` does not has permission to perform `verb` operations on `object` anymore (it is not necessary that `role` has `verb` permissions to perform `revoke`)
+ * returns `true` if successful and `false` otherwise
 
 `Acl.init`:
 

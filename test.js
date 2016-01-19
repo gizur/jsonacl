@@ -1,5 +1,5 @@
 var assert = require('assert');
-var Acl = require('./acl.js');
+var Acl = require('./jsonacl.js');
 
 var log = console.log.bind(console);
 

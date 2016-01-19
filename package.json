@@ -1,6 +1,6 @@
 {
   "name": "jsonacl",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple ACL built using a JSON file to persist permissions",
   "main": "jsonacl.js",
   "scripts": {
